@@ -3,10 +3,7 @@
 	// write your other comment here
 	/*
 		write your comment here
-
 	*/
-
-
 	$studentNo = "";
 	$lastName = "";
 	$firstName = "";
@@ -28,55 +25,43 @@
 				<div class="well">
 					<form method="GET" action="welcome.php"
 						class="form-horizontal">
+
 						<div class="form-group">
-							<label class="control-label col-lg-4">
-								Student ID
-							</label>
 							<div class="col-lg-8">
 								<input type="text" name="sid"
-									class="form-control" required />
+									class="form-control" placeholder="ID Number" required />
 							</div>
 						</div>
+
 						<div class="form-group">
-							<label class="control-label col-lg-4">
-								Last Name
-							</label>
 							<div class="col-lg-8">
 								<input type="text" name="ln"
-									class="form-control" required />
+									class="form-control" placeholder="Last Name" required />
 							</div>
 						</div>
+
 						<div class="form-group">
-							<label class="control-label col-lg-4">
-								First Name
-							</label>
 							<div class="col-lg-8">
 								<input type="text" name="fn"
-									class="form-control" required />
+									class="form-control" placeholder="First Name" required />
 							</div>
 						</div>
+
 						<div class="form-group">
-							<label class="control-label col-lg-4">
-								Email Address
-							</label>
 							<div class="col-lg-8">
 								<input type="email" name="email"
-									class="form-control" required />
+									class="form-control" placeholder="Email Address" required />
 							</div>
 						</div>
+
 						<div class="form-group">
-							<label class="control-label col-lg-4">
-								Password
-							</label>
 							<div class="col-lg-8">
 								<input type="password" name="pwd"
-									class="form-control" required />
+									class="form-control" placeholder="Password" required />
 							</div>
 						</div>
+
 						<div class="form-group">
-							<label class="control-label col-lg-4">
-								Birthdate
-							</label>
 							<div class="col-lg-8">
 								<input type="date" name="bday"
 									class="form-control" required />
