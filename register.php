@@ -17,9 +17,15 @@
 	<head>
 		<title>Student Registration</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link href="css/stylestyle.css" rel="stylesheet" />
 	</head>
 	<body>
-		<div class="container">
+
+<div class="page-header" id="heather">
+  
+</div>
+
+		<div class="container" id="diffcontainer">
 			<h1 class="text-center">Student Registration</h1>
 			<div class="col-lg-offset-4 col-lg-4">
 				<div class="well">
